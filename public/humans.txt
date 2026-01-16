@@ -1,0 +1,25 @@
+/* TEAM */
+
+Developer: Punit Gauttam
+Role: System Engineer & Data Visualization Expert
+Location: Jaipur, Rajasthan, India
+LinkedIn: https://www.linkedin.com/in/gautty97
+Email: gautty97@gmail.com
+
+/* SITE */
+
+Last update: 2026/01/16
+Language: English
+Standards: HTML5, CSS3, JavaScript ES6+
+Framework: Next.js 16
+Styling: Tailwind CSS 4
+Animation: Framer Motion
+Charts: Recharts
+Icons: React Icons
+
+/* THANKS */
+
+Built with modern web technologies
+Powered by Next.js and React 19
+Styled with Tailwind CSS
+Animated with Framer Motion

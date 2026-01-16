@@ -1,0 +1,68 @@
+# Punit Gauttam - Portfolio
+
+> System Engineer & Data Visualization Expert at Tata Consultancy Services
+
+## About
+
+Punit Gauttam is a results-driven IT professional with 5+ years of experience specializing in Power BI development, data processing, and visualization. Currently delivering impactful solutions at TCS for enterprise clients.
+
+## Core Expertise
+
+- **Power BI Development**: Creating interactive dashboards, advanced DAX queries, and enterprise-grade analytics
+- **Power Automate**: Building intelligent automation flows for business process optimization
+- **SQL Server**: Database optimization, stored procedures, and query performance tuning
+- **Power Platform**: End-to-end solutions using Power Apps, SharePoint, and Dataverse
+
+## Technical Skills
+
+### Data Visualization
+- Power BI (95% proficiency)
+- DAX (92% proficiency)
+- Power Query / M Language (90% proficiency)
+- Data Modeling (88% proficiency)
+
+### Database
+- SQL Server (90% proficiency)
+- Teradata (85% proficiency)
+- Snowflake (80% proficiency)
+- Query Optimization (85% proficiency)
+
+### Automation & Cloud
+- Power Automate (88% proficiency)
+- Power Apps (82% proficiency)
+- SharePoint (85% proficiency)
+- Azure Databricks (80% proficiency)
+
+## Professional Experience
+
+### System Engineer at Tata Consultancy Services (Sep 2023 - Present)
+- Developed 25+ interactive Power BI dashboards using advanced DAX and SQL queries
+- Implemented Power Automate flows reducing manual reporting effort by 60%
+- Migrated legacy reports to Power BI Service with Row-Level Security (RLS)
+
+### Associate Engineer at Circulants Solutions Inc. (Oct 2021 - Jul 2023)
+- Designed Power BI reports with drill-through, bookmarks, and custom DAX measures
+- Built Power Automate workflows integrating SharePoint, SQL, and Power Apps
+
+### Graduate Engineer at Circuitloop Technologies (Jun 2020 - Oct 2021)
+- Built advanced Excel reports with pivot tables and macros for business analytics
+- Managed SQL databases for e-commerce inventory tracking
+
+## Education
+
+Bachelor of Technology (B.Tech)
+Swami Keshwanand Institute of Technology
+Aug 2015 - Jun 2019
+
+## Contact
+
+- Email: gautty97@gmail.com
+- LinkedIn: https://www.linkedin.com/in/gautty97
+- Location: Jaipur, Rajasthan, India
+
+## Key Achievements
+
+- 5+ Years of Professional Experience
+- 50+ Power BI Reports Delivered
+- 25+ Automated Workflows Created
+- 100% Client Satisfaction Rate
