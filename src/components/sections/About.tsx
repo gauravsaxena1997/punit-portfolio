@@ -16,28 +16,28 @@ const expertise = [
     icon: HiOutlinePresentationChartBar,
     title: "Interactive Dashboards",
     description:
-      "Creating visual reports that help executives and teams make faster, data-driven decisions with real-time insights.",
+      "Designing and delivering Power BI dashboards with DAX-driven insights, optimized models, and role-based access to support informed business decisions.",
     color: "#F2C811",
   },
   {
     icon: HiOutlineDatabase,
     title: "Data Management",
     description:
-      "Organizing and optimizing large datasets to ensure reports load quickly and information is always accurate and up-to-date.",
+      "Modeling, transforming, and validating data using SQL and Power Query to ensure accuracy, performance, and reliable reporting at scale.",
     color: "#CC2927",
   },
   {
     icon: HiOutlineLightningBolt,
     title: "Process Automation",
     description:
-      "Building automated workflows that eliminate repetitive manual tasks, saving teams hours of work every week.",
+      "Automating business workflows using Power Automate and Python, including email schedulers and API-enabled processes that reduce manual effort.",
     color: "#0078D4",
   },
   {
     icon: HiOutlineDocumentText,
     title: "Team Collaboration Tools",
     description:
-      "Setting up centralized platforms where teams can easily access, share, and collaborate on important business data.",
+      "Enabling business users through Power Apps and SharePoint solutions that simplify data access, sharing, and operational workflows.",
     color: "#038387",
   },
 ];
@@ -194,10 +194,11 @@ export default function About() {
                   {[
                     { name: "Power BI", color: "#F2C811" },
                     { name: "DAX", color: "#F2C811" },
-                    { name: "SQL Server", color: "#E74856" },
                     { name: "Power Automate", color: "#4EA8DE" },
-                    { name: "SharePoint", color: "#01B8AA" },
                     { name: "Power Apps", color: "#A855F7" },
+                    { name: "SharePoint", color: "#01B8AA" },
+                    { name: "SQL", color: "#E74856" },
+                    { name: "Python", color: "#3776AB" },
                   ].map((tech) => (
                     <span
                       key={tech.name}

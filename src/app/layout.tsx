@@ -15,19 +15,23 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Punit Gauttam | System Engineer & Data Visualization Expert",
+  title: "Punit Gauttam | Senior Data & Power BI Engineer | Power BI & Power Platform",
   description:
-    "Results-driven IT professional with 5+ years of experience specializing in Power BI development, data processing, and visualization. Currently delivering impactful solutions at TCS for Sony Pictures Entertainment.",
+    "Delivering enterprise-grade analytics and automation solutions using Power BI and Power Platform. Experienced in building 25+ dashboards and enabling business users through workflow automation across Healthcare, Media & Entertainment, E-commerce and Insurance domains.",
   keywords: [
     "Punit Gauttam",
-    "System Engineer",
+    "Senior Data Engineer",
+    "BI Engineer",
     "Power BI Developer",
+    "Power Platform",
     "Data Visualization",
     "Data Analyst",
     "TCS",
     "SQL",
     "Python",
-    "Azure Databricks",
+    "Power Automate",
+    "Power Apps",
+    "SharePoint",
     "DAX",
   ],
   authors: [{ name: "Punit Gauttam" }],
@@ -35,16 +39,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    title: "Punit Gauttam | System Engineer & Data Visualization Expert",
+    title: "Punit Gauttam | Senior Data & Power BI Engineer | Power BI & Power Platform",
     description:
-      "Results-driven IT professional with 5+ years of experience specializing in Power BI development, data processing, and visualization.",
+      "Delivering enterprise-grade analytics and automation solutions using Power BI and Power Platform. Experienced in building 25+ dashboards across Healthcare, Media & Entertainment, E-commerce and Insurance domains.",
     siteName: "Punit Gauttam Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Punit Gauttam | System Engineer & Data Visualization Expert",
+    title: "Punit Gauttam | Senior Data & Power BI Engineer | Power BI & Power Platform",
     description:
-      "Results-driven IT professional with 5+ years of experience specializing in Power BI development.",
+      "Delivering enterprise-grade analytics and automation solutions using Power BI and Power Platform. Experienced in building 25+ dashboards across multiple domains.",
   },
   robots: {
     index: true,

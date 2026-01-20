@@ -2,12 +2,12 @@ import { SiteConfig, Skill, Experience, Project, KPIMetric, NavLink } from "@/ty
 
 export const siteConfig: SiteConfig = {
   name: "Punit Gauttam",
-  title: "System Engineer | Power Platform & Data Visualization Expert",
+  title: "Senior Data & Power BI Engineer | Power BI & Power Platform",
   description:
-    "Transforming complex data into actionable insights through interactive dashboards, automated workflows, and enterprise-grade analytics solutions.",
+    "Delivering enterprise-grade analytics and automation solutions using Power BI and Power Platform. Experienced in building 25+ dashboards and enabling business users through workflow automation across Healthcare, Media & Entertainment, E-commerce and Insurance domains.",
   aboutDescription:
-    "With 5+ years of hands-on experience, I specialize in Power BI development, Power Automate workflows, and SQL optimization. I leverage AI tools for parallel development and building personal productivity dashboards while continuously expanding my expertise in advanced DAX queries.",
-  role: "System Engineer",
+    "Delivering enterprise-grade analytics and automation solutions using Power BI and Power Platform. Experienced in building 25+ dashboards and enabling business users through workflow automation across Healthcare, Media & Entertainment, E-commerce and Insurance domains.",
+  role: "Senior Data & Power BI Engineer",
   email: "gautty97@gmail.com",
   phone: "+91 8503087806",
   location: "Jaipur, Rajasthan, India",
@@ -36,10 +36,10 @@ export const navLinks: NavLink[] = [
 ];
 
 export const kpiMetrics: KPIMetric[] = [
-  { value: 5, suffix: "+", label: "Years Experience" },
-  { value: 50, suffix: "+", label: "Power BI Reports" },
-  { value: 25, suffix: "+", label: "Automated Flows" },
-  { value: 100, suffix: "%", label: "Client Satisfaction" },
+  { value: 5, suffix: "+", label: "Professional Experience" },
+  { value: 25, suffix: "+", label: "Power BI Dashboards" },
+  { value: 50, suffix: "", label: "Process Optimization" },
+  { value: 4, suffix: "", label: "Domains" },
 ];
 
 export const skills: Skill[] = [
@@ -140,13 +140,13 @@ export const experiences: Experience[] = [
     company: "Tata Consultancy Services",
     duration: "Sep 2023 - Present",
     description:
-      "Delivering enterprise Power BI solutions and automated workflows for a global entertainment studio, transforming complex data into actionable business intelligence.",
+      "Worked on multiple enterprise analytics initiatives across Insurance and Media & Entertainment domains, delivering Power BI dashboards, API analytics platforms, and governance reporting solutions. Responsibilities included modernizing legacy data platforms, building role-secured analytics, developing regulatory and all-encompassing reports, and leading a small team while collaborating directly with client stakeholders.",
     achievements: [
-      "Developed 25+ interactive Power BI dashboards using advanced DAX and SQL queries",
-      "Implemented Power Automate flows reducing manual reporting effort by 60%",
-      "Migrated legacy reports to Power BI Service with Row-Level Security (RLS)",
-      "Created SharePoint-integrated solutions for centralized data management",
-      "Optimized SQL queries improving report refresh times by 40%",
+      "Delivered end-to-end Power BI analytics solutions across multiple business domains",
+      "Built API analytics, governance, and regulatory dashboards for enterprise clients",
+      "Migrated legacy SQL workloads to modern cloud data platforms",
+      "Implemented Row-Level Security (RLS) and role-based reporting",
+      "Led a team of 2 and owned delivery from requirement gathering to deployment",
     ],
     technologies: ["Power BI", "DAX", "SQL Server", "Power Automate", "SharePoint", "Power Query"],
   },
@@ -156,29 +156,32 @@ export const experiences: Experience[] = [
     company: "Circulants Solutions Inc.",
     duration: "Oct 2021 - Jul 2023",
     description:
-      "Delivered end-to-end Power Platform solutions for healthcare and enterprise clients, specializing in Power BI development and process automation.",
+      "Delivered healthcare analytics and data automation solutions, working on both data processing pipelines and Power BI reporting platforms. Contributed to projects involving automated data ingestion, validation, secure access, and visualization of healthcare and medicine usage data.",
     achievements: [
-      "Designed Power BI reports with drill-through, bookmarks, and custom DAX measures",
-      "Built Power Automate workflows integrating SharePoint, SQL, and Power Apps",
-      "Implemented Row-Level Security for multi-tenant Power BI solutions",
-      "Developed Power Apps for data entry connected to Dataverse",
-      "Managed data pipelines using Azure Databricks and sFTP servers",
+      "Built Power BI dashboards for healthcare analytics and reporting",
+      "Developed automated data processing pipelines using Python and Azure services",
+      "Worked with structured and unstructured healthcare data from multiple sources",
+      "Supported secure data access and role-based reporting",
     ],
     technologies: ["Power BI", "Power Automate", "Power Apps", "SharePoint", "Azure Databricks", "SQL"],
   },
   {
     id: "circuitloop",
     role: "Graduate Engineer",
-    company: "Circuitloop Technologies",
-    duration: "Jun 2020 - Oct 2021",
+    company: "Circuitloop Technologies LLP",
+    duration: "Jul 2020 - Oct 2021",
     description:
-      "Managed e-commerce operations and developed data solutions using Excel and SQL for business analytics.",
+      "Worked in a startup e-commerce environment, supporting day-to-day business operations, data analysis, and customer engagement. Gained hands-on experience in analyzing sales and operational data using Excel, interacting with customers and organizational leadership, and contributing to data-driven decision-making in a small, fast-paced team.",
     achievements: [
-      "Built advanced Excel reports with pivot tables and macros for business analytics",
-      "Managed SQL databases for e-commerce inventory tracking",
-      "Led team operations ensuring timely delivery of client solutions",
+      "Analyzed e-commerce sales, inventory, and operational data using Microsoft Excel",
+      "Created and maintained Excel-based reports to track orders, returns, and customer trends",
+      "Supported customer follow-ups, including order status, returns, and policy-related queries",
+      "Interacted directly with organization leadership to share insights and operational updates",
+      "Assisted in managing and expanding product and customer data for the platform",
+      "Gained exposure to end-to-end business operations in a startup environment",
+      "Developed strong fundamentals in data handling, reporting, and teamwork",
     ],
-    technologies: ["MS Excel", "SQL", "Data Analysis", "Team Leadership"],
+    technologies: ["Microsoft Excel", "Data Analysis", "E-commerce Operations", "Customer Engagement", "Business Communication"],
   },
   {
     id: "lnt",
@@ -197,71 +200,58 @@ export const experiences: Experience[] = [
 
 export const projects: Project[] = [
   {
-    id: "insurance-analytics",
-    title: "API Analytics & Deployment Platform",
+    id: "insurance-api-analytics",
+    title: "Insurance API Analytics, Governance & Automation Platform",
     description:
-      "Leading the development of comprehensive Power BI analytics solution for a major US-based insurance company, focusing on API call collection, monitoring, and deployment metrics. Built end-to-end dashboards tracking API performance, usage patterns, and deployment pipelines for enterprise stakeholders.",
+      "Built an end-to-end analytics and governance solution from scratch for an insurance client by working directly with stakeholders and leading a small team. The platform delivers multi-level visibility into APIs across platforms, supports regulatory (NYDFS) reporting, and enables business users through Power Apps, Power Automate, and SharePoint. Key highlights include platform-level and API-level analytics using Power BI, governance and all-encompassing reporting for enterprise visibility, NYDFS regulatory reporting dashboards, data modeling from PostgreSQL sources, Row-Level Security (RLS) for role-based access, business enablement using Power Apps and SharePoint, automated email notifications using Power Automate, and leading a team of 2 with end-to-end delivery ownership.",
     category: "Power BI",
     featured: true,
-    leadership: "Leading a team of 2 analysts",
+    leadership: "Leading a team of 2",
     metrics: [
+      { label: "Duration", value: "Feb 2025 - Present" },
       { label: "Team Size", value: "2 Direct Reports" },
-      { label: "API Metrics Tracked", value: "50+" },
-      { label: "Automated Workflows", value: "15+" },
+      { label: "Reporting Types", value: "API + Governance + Regulatory" },
     ],
-    technologies: ["Power BI", "Power Automate", "DAX", "SQL Server", "API Analytics"],
+    technologies: ["Power BI", "DAX", "PostgreSQL", "Power Apps", "Power Automate", "SharePoint", "API Analytics", "Insurance Analytics", "BI Governance"],
   },
   {
-    id: "entertainment-dashboard",
-    title: "Enterprise Power BI Dashboard Suite",
+    id: "media-entertainment-analytics",
+    title: "Media & Entertainment Consumer Analytics Platform",
     description:
-      "Comprehensive Power BI solution for a global entertainment studio featuring real-time KPIs, interactive drill-throughs, and DAX-powered calculations for executive decision making across multiple business units.",
+      "Modernized legacy reporting by migrating SQL workloads from Teradata to Snowflake and building Power BI dashboards for consumer and broadcaster analytics. Enabled secure access and long-term trend analysis through role-based reporting and historical data comparisons. Key highlights include migrating SQL queries from Teradata to Snowflake, building Power BI dashboards for consumer and broadcaster analytics, implementing Row-Level Security (RLS) for secure reporting, conducting historical and year-over-year analysis using Excel and Power BI, and collaborating with stakeholders for data validation.",
     category: "Power BI",
     metrics: [
-      { label: "Dashboards", value: "25+" },
-      { label: "DAX Measures", value: "150+" },
-      { label: "Data Sources", value: "12" },
+      { label: "Duration", value: "Oct 2023 - Jan 2025" },
+      { label: "SQL Migration", value: "Teradata to Snowflake" },
+      { label: "Analytics Focus", value: "Consumer + Broadcaster" },
     ],
-    technologies: ["Power BI", "DAX", "SQL Server", "Power Query"],
+    technologies: ["Power BI", "Snowflake", "SQL Migration", "DAX", "Media Analytics", "Enterprise BI", "RLS"],
   },
   {
-    id: "automation-suite",
-    title: "Power Automate Workflow Suite",
+    id: "healthcare-visualization",
+    title: "Healthcare Data Visualization & Insights Platform",
     description:
-      "End-to-end automation solution integrating SharePoint, Power BI, and SQL Server for automated report generation, email triggers for scheduled reports, and distribution with approval workflows.",
-    category: "Power Automate",
+      "Developed Power BI dashboards to analyze healthcare data from multiple hospitals and organizations. The solution provided insights into medicine usage, effectiveness, and geographic distribution using interactive and map-based visualizations. Key highlights include building Power BI dashboards for healthcare analytics, sourcing data from Azure Synapse and flat files, analyzing medicine usage and effectiveness, displaying geographic distribution using map visuals, and implementing role-based access using RLS.",
+    category: "Power BI",
     metrics: [
-      { label: "Flows Created", value: "25+" },
-      { label: "Hours Saved/Week", value: "40+" },
-      { label: "Integrations", value: "8" },
+      { label: "Duration", value: "Jan 2023 - Jul 2023" },
+      { label: "Data Sources", value: "Azure Synapse + Files" },
+      { label: "Analytics", value: "Medicine Usage + Effectiveness" },
     ],
-    technologies: ["Power Automate", "SharePoint", "Power BI", "Outlook"],
+    technologies: ["Power BI", "Healthcare Analytics", "Azure Synapse", "Data Visualization", "DAX", "BI Reporting"],
   },
   {
-    id: "sql-optimization",
-    title: "SQL Performance Optimization",
+    id: "healthcare-data-pipeline",
+    title: "Automated Healthcare Data Processing Pipeline",
     description:
-      "Database optimization project involving query tuning, indexing strategies, and stored procedure development for high-performance Power BI DirectQuery connections.",
-    category: "SQL Server",
+      "Built an automated data processing solution to ingest healthcare data from SFTP sources in multiple formats, clean and validate it using Python, and store it securely in Azure Blob Storage for controlled access. Key highlights include SFTP-based data ingestion (CSV, Excel, ZIP), data cleaning and validation using Python, utilizing Azure Notebooks and Blob Storage, and implementing secure, role-based data access.",
+    category: "Data Engineering",
     metrics: [
-      { label: "Query Speed", value: "+70%" },
-      { label: "Procedures", value: "50+" },
-      { label: "Tables Optimized", value: "100+" },
+      { label: "Duration", value: "Oct 2021 - Jan 2023" },
+      { label: "Ingestion", value: "SFTP Multi-format" },
+      { label: "Storage", value: "Azure Blob Storage" },
     ],
-    technologies: ["SQL Server", "T-SQL", "Query Optimization", "Indexing"],
-  },
-  {
-    id: "powerapps-portal",
-    title: "Power Apps Data Entry Portal",
-    description:
-      "Custom Power Apps solution connected to Dataverse and SharePoint for streamlined data collection with real-time validation and Power Automate integration.",
-    category: "Power Apps",
-    metrics: [
-      { label: "Forms Built", value: "15+" },
-      { label: "Users", value: "200+" },
-      { label: "Accuracy", value: "99.9%" },
-    ],
-    technologies: ["Power Apps", "Dataverse", "SharePoint", "Power Automate"],
+    technologies: ["Python", "Azure Blob Storage", "Azure Notebooks", "Data Engineering", "Healthcare Data", "ETL Automation"],
   },
 ];
 

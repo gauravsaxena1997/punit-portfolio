@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 
 const expertiseData = [
-  { name: "Data Visualization", value: 40, color: "#F2C811" },
-  { name: "Process Automation", value: 25, color: "#4EA8DE" },
-  { name: "Database & SQL", value: 25, color: "#E74856" },
+  { name: "Power BI & Visualization", value: 40, color: "#F2C811" },
+  { name: "Power Platform & Automation", value: 30, color: "#4EA8DE" },
+  { name: "SQL & Data Modeling", value: 20, color: "#E74856" },
   { name: "Cloud & Integration", value: 10, color: "#01B8AA" },
 ];
 

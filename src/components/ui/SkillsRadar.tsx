@@ -12,12 +12,13 @@ import {
 } from "recharts";
 
 const skillsData = [
-  { skill: "Power BI", value: 95, fullMark: 100 },
-  { skill: "SQL", value: 90, fullMark: 100 },
-  { skill: "DAX", value: 92, fullMark: 100 },
-  { skill: "Power Automate", value: 88, fullMark: 100 },
-  { skill: "Power Query", value: 90, fullMark: 100 },
-  { skill: "SharePoint", value: 85, fullMark: 100 },
+  { skill: "Power BI", value: 90, fullMark: 100 },
+  { skill: "DAX", value: 85, fullMark: 100 },
+  { skill: "Power Automate", value: 70, fullMark: 100 },
+  { skill: "Power Apps", value: 65, fullMark: 100 },
+  { skill: "SQL", value: 60, fullMark: 100 },
+  { skill: "SharePoint", value: 60, fullMark: 100 },
+  { skill: "Python", value: 55, fullMark: 100 },
 ];
 
 interface CustomTooltipProps {
